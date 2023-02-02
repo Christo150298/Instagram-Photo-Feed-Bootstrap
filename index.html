@@ -13,7 +13,7 @@
         <title>Instagram Photo Feed Bootstrap</title>
     </head>
     <body>
-        <div class="container-fluid p-4">
+        <div class="container">
             <div class="row">
                 <div class="col-6 d-inline-flex p-2 bg-light">
                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-instagram m-1" viewBox="0 0 16 16">
@@ -62,8 +62,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-12 d-inline-flex justify-content-center mt-3">
                     <ul class="nav nav-pills" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -79,82 +77,98 @@
                     </ul>
                 </div>
             </div>
-            <div class="tab-content container mt-3" id="pills-tabContent">
+            <div class="tab-content mt-3 d-flex justify-content-center" id="pills-tabContent">
                 <div class="tab-pane fade active show" id="firstwindow" role="tabpanel" aria-labelledby="pills-firstwindow-tab" tabindex="0">
-                    <img src="https://picsum.photos/420/360" class="me-2">
-                    <img src="https://picsum.photos/420/360" class="me-2">
-                    <img src="https://picsum.photos/420/360">
-                    <img src="https://placebear.com/420/360" class="mt-3 me-2">
-                    <img src="https://placebear.com/420/360" class="mt-3 me-2">
-                    <img src="https://placebear.com/420/360" class="mt-3">
-                    <img src="https://baconmockup.com/420/360" class="mt-3 me-2">
-                    <img src="https://baconmockup.com/420/360" class="mt-3 me-2">
-                    <img src="https://baconmockup.com/420/360" class="mt-3">
+                    <img src="https://picsum.photos/390/360" class=" ms-5 me-2">
+                    <img src="https://picsum.photos/390/360" class="ms-2 me-2">
+                    <img src="https://picsum.photos/390/360" class="ms-2">
+                    <img src="https://placebear.com/390/360" class=" ms-5 mt-3 me-2">
+                    <img src="https://placebear.com/390/360" class="mt-3 me-2 ms-2">
+                    <img src="https://placebear.com/390/360" class="mt-3 ms-2">
+                    <img src="https://baconmockup.com/390/360" class=" ms-5 mt-3 me-2">
+                    <img src="https://baconmockup.com/390/360" class="mt-3 me-2 ms-2">
+                    <img src="https://baconmockup.com/390/360" class="mt-3 ms-2">
                 </div>
                 <div class="tab-pane fade" id="secondwindow" role="tabpanel" aria-labelledby="pills-secondwindow-tab" tabindex="0">
-                    <div class="post">
-                        <div class="post-header d-inline-flex">
-                            <h2>Some Cute Thing</h2>
-                            <span>12/14</span>
-                        </div>
-                        <div>
-                            <img src="https://placekitten.com/640/360"></img>
-                        </div>
-                        <div class="d-inline-flex mt-1">
-                            <i class="fa-regular fa-heart fa-2x"></i>
-                            <strong class="ms-2">204 likes</strong>
-                        </div>
-                        <div>
-                            <p>The internet aprovves this cute cat... <strong>#BreathCode.</strong></p>
-                        </div>
+                    <div class="post border border-dark">
+                            <div class="post-header d-flex align-items-center p-2 justify-content-between">
+                                <div>
+                                    <h2>Some Cute Thing</h2>
+                                </div>
+                                <div>
+                                    <span>12/14</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="https://placekitten.com/640/360" class="border border-dark"></img>
+                            </div>
+                            <div class="d-inline-flex mt-1 ms-2">
+                                <i class="fa-regular fa-heart fa-2x"></i>
+                                <strong class="ms-2">204 likes</strong>
+                            </div>
+                            <div class="ms-2">
+                                <p>The internet aprovves this cute cat... <strong>#BreathCode.</strong></p>
+                            </div>
                     </div>
-                    <div class="post">
-                        <div class="post-header d-inline-flex">
-                            <h2>Another Cute Pet</h2>
-                            <span>12/17</span>
-                        </div>
-                        <div>
-                            <img src=http://placekitten.com/g/640/360></img>
-                        </div>
-                        <div class="d-inline-flex mt-1">
-                            <i class="fa-regular fa-heart fa-2x"></i>
-                            <strong class="ms-2">344 likes</strong>
-                        </div>
-                        <div>
-                            <p>Miau Miau Miau Miau Miau Miau <strong>#BreathCode</strong></p>
-                        </div>
+                    <div class="post mt-3 border border-dark">
+                            <div class="post-header d-flex align-items-center p-2 justify-content-between">
+                                <div>
+                                    <h2>Another Cute Pet</h2>
+                                </div>
+                                <div>
+                                    <span>12/17</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="http://placekitten.com/g/640/360" class="border border-dark"></img>
+                            </div>
+                            <div class="d-inline-flex mt-1 ms-2">
+                                <i class="fa-regular fa-heart fa-2x"></i>
+                                <strong class="ms-2">344 likes</strong>
+                            </div>
+                            <div class="ms-2">
+                                <p>Miau Miau Miau Miau Miau Miau <strong>#BreathCode</strong></p>
+                            </div>
                     </div>
-                    <div class="post">
-                        <div class="post-header d-inline-flex">
-                            <h2>I would like to have a beard :(</h2>
-                            <span>12/17</span>
-                        </div>
-                        <div>
-                            <img src="https://placebeard.it/640x360"></img>
-                        </div>
-                        <div class="d-inline-flex mt-1">
-                            <i class="fa-regular fa-heart fa-2x"></i>
-                            <strong class="ms-2">854 likes</strong>
-                        </div>
-                        <div>
-                            <p>This space is for all people with beard!<strong>#BreathCode.</strong></p>
-                        </div>
+                    <div class="post mt-3 border border-dark">
+                            <div class="post-header d-flex align-items-center p-2 justify-content-between">
+                                <div>
+                                    <h2>I would like to have a beard :(</h2>
+                                </div>
+                                <div>
+                                <span>12/17</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="https://placebeard.it/640x360" class="border border-dark"></img>
+                            </div>
+                            <div class="d-inline-flex mt-1 ms-2">
+                                <i class="fa-regular fa-heart fa-2x"></i>
+                                <strong class="ms-2">854 likes</strong>
+                            </div>
+                            <div class="ms-2">
+                                <p>This space is for all people with beard!<strong>#BreathCode.</strong></p>
+                            </div>
                     </div>
-                    <div class="post">
-                        <div class="post-header d-inline-flex">
-                            <h2>And of course... food!</h2>
-                            <span>12/14</span>
-                        </div>
-                        <div>
-                            <img src="https://baconmockup.com/640/360"></img>
-                        </div>
-                        <div class="d-inline-flex mt-1">
-                            <i class="fa-regular fa-heart fa-2x"></i>
-                            <strong class="ms-2">468 likes</strong>
-                        </div>
-                        <div>
-                            <p>Because no photo feed is cool without some fode on it! <strong>#BreathCode.</strong></p>
-                        </div>
+                    <div class="post mt-3 mb-3 border border-dark">
+                            <div class="post-header d-flex align-items-center p-2 justify-content-between">
+                                <div>
+                                    <h2>And of course... food!</h2>
+                                </div>
+                                <div>
+                                <span>12/14</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="https://baconmockup.com/640/360" class="border border-dark"></img>
+                            </div>
+                            <div class="d-inline-flex mt-1 ms-2">
+                                <i class="fa-regular fa-heart fa-2x"></i>
+                                <strong class="ms-2">468 likes</strong>
+                            </div>
+                            <div class="ms-2">
+                                <p>Because no photo feed is cool without some fode on it! <strong>#BreathCode.</strong></p>
+                            </div>
                     </div>
                 </div>
             </div>
